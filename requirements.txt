@@ -1,0 +1,29 @@
+# language processing
+playsound
+torch
+whisper
+gtts
+pygame
+SpeechRecognition
+pyaudio
+
+# NLP
+nltk
+scikit-learn
+scipy==1.12
+gensim
+pandas
+
+# brew install portaudio 
+
+# llm dependencies
+langchain
+langchain-community
+google-generativeai
+python-dotenv
+streamlit
+ragstack-ai
+cassio
+langchain-google-genai 
+langchain_astradb
+faiss-cpu
