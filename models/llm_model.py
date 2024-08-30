@@ -15,9 +15,9 @@ from langchain.chains import RetrievalQA
 from langchain.memory import ConversationBufferMemory
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-os.environ["ASTRA_DB_API_ENDPOINT"] ="https://f391f9ba-54da-4f88-af00-97b5441e213f-us-east1.apps.astra.datastax.com"
+os.environ["ASTRA_DB_API_ENDPOINT"] =""
 os.environ["ASTRA_DB_APPLICATION_TOKEN"]=os.getenv("ASTRA_DB_APPLICATION_TOKEN")
-os.environ["HUGGING_FACE_API"] = "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"
+os.environ["HUGGING_FACE_API"] = ""
 
 
 def vector_store_config():
